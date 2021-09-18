@@ -1,0 +1,327 @@
+{
+	"info": {
+		"_postman_id": "c1788956-924e-4300-bcaa-c33fb3bc4b70",
+		"name": "BankProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:49000/api/customers/login?email=James@example.com&password=hello",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createAccount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccountDetails(Balance)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionLodge",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionWithdraw",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactionTransfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:49000/api/customers/create?email=James@example.com&password=hello&address=3 farm lane",
+					"host": [
+						"localhost"
+					],
+					"port": "49000",
+					"path": [
+						"api",
+						"customers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "James@example.com"
+						},
+						{
+							"key": "password",
+							"value": "hello"
+						},
+						{
+							"key": "address",
+							"value": "3 farm lane"
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
